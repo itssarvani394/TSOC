@@ -5,7 +5,7 @@ const neucron = new NeucronSDK();
 const authModule = neucron.authentication;
 const walletModule = neucron.wallet;
 
-// const signUpResponse = await authModule.signUp({ email: "sarvani13579@gmail.com", password: "srikar@394" });
+// const signUpResponse = await authModule.signUp({ email: "email", password: "password" });
 // console.log(signUpResponse);
 
 const loginResponse = await authModule.login({ email: "sales@timechainlabs.io", password: "string" });
